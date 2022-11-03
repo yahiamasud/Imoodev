@@ -1,0 +1,538 @@
+/* =================================== */
+/*-----this is the header start------ */
+.head{
+    margin-top:32px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.head .band-logo h3{
+    font-family: 'Nunito Sans';
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    color: #0B254B;
+}
+
+.nav-bar{
+
+}
+.nav-bar .navbar-nav{
+    display:flex;
+    list-style-type:none;
+    background-color: ;
+}
+.nav-bar .navbar-nav .nav-item{
+    
+}
+.nav-bar .navbar-nav .nav-item .nav-link{
+    text-decoration:none;
+    color:
+    #8E919A ;
+    padding:18.5px 20px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+}
+.nav-bar .navbar-nav .nav-item .nav-link:hover{
+  color:  black;
+}
+.nav-bar .navbar-nav .nav-item .nav-link.active{
+   color: black;
+}
+.nav-bar .navbar-nav .nav-item .nav-link.active:first-child{
+    padding-left:0px;
+}
+.nav-bar .navbar-nav .nav-item .nav-link.button:last-child{
+   color: white;
+   margin-left:20px;
+}
+
+
+
+/*-----this is the header end------ */
+/* =================================== */
+
+
+
+
+/* =================================== */
+/*-----this is the main start------ */
+
+
+
+/*------- section creative------ */
+
+.wrap-creativ-all{
+    margin-top:88px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.wrap-creativ-all .creative-text-head{
+
+    margin-bottom:12px;
+
+}
+.wrap-creativ-all .creative-text-p{
+    
+  
+    text-align: center;
+    margin: 12px 294px 18px 306px;
+}
+.wrap-creativ-all .creative-text-p p{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #7A7A7A;
+}
+.wrap-creativ-all .creative-button{
+    margin-top:18px;
+}
+.wrap-creativ-all .creative-button .consultnow {
+    margin-right:15px;
+    padding:16px 87.5px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    background-color:  #0D1337;
+    color:#ffffff ;
+
+}
+.wrap-creativ-all .creative-button .consultnow {
+    cursor: pointer;
+}
+.wrap-creativ-all .creative-button .about {
+    margin-left:15px;
+    background-color:white;
+    color:black ;
+    border: 1px solid black;
+    padding:16px 87.5px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+}
+.wrap-creativ-all .creative-button .about:hover{
+    cursor: pointer;
+}
+/*------- section analying terget------ */
+ 
+ 
+.terget{
+    margin-top:140px;
+    margin-bottom:40px;
+}
+.terget-text{
+ display: flex;
+ flex-direction: row;
+ 
+}
+.terget-text .imoodev-titie{
+   width:50%;
+  
+
+}
+.terget-text .imoodev-titie p{
+   padding: 0px 0px 0px 0px;
+   color:  #FF6F29;
+   font-weight:700;
+   font-family: 'Inter';
+  
+}
+.terget-text .imoodev-titie h1{
+    margin-top:16px;
+    padding: 0px 0px 0px 0px;
+    text-align: left;
+    font-size: 42px;
+    line-height: 58px;
+}
+.terget-text .tite-p{
+    width:50%;
+    padding:38px 0px 38px 0px;
+    margin-left:15.5;
+}
+.terget-text .tite-p p{
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+
+}
+
+.card-box{
+    display: flex;
+    flex-wrap: wrap;
+    gap:32px;
+    
+
+}
+.card-box .card{
+
+    padding:16px;
+    max-width:581px;
+    padding:16;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+.card-box .card h5{
+    padding-bottom:16px;
+}
+.card.card-1{
+    background-color:  #0D1337;
+    color: #FFFFFF;
+}
+
+/* -- ----------section service engaged--------- -- */
+.wrap-service-engaged{
+    margin-top:140px;
+    display: flex;
+    gap:30px;
+    margin-bottom:140px;
+}
+.wrap-service-engaged .service-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.wrap-service-engaged .service-text .service-red{
+    padding: 0px 0px 0px 0px;
+    color:  #FF6F29;
+    font-weight:700;
+    font-family: 'Inter';
+}
+.wrap-service-engaged .service-text h1{
+    text-align: left;
+    padding-bottom:16px;
+    padding-top:16px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 58px;
+    text-transform: capitalize;
+    color: #0B254B;
+
+}
+.wrap-service-engaged .service-text .button-1{
+    margin-top:40px;
+}
+.wrap-service-engaged .service-img{
+    max-width:100%;
+}
+
+/* -- ----------section  business building--------- -- */
+.wrap-business-building{
+    display: flex;
+    gap:30px;
+    margin-bottom:140px;
+}
+.wrap-business-building .img-business{
+    max-width:100%;
+    padding-right:15px;
+    
+}
+.wrap-business-building .businsses-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+    
+.wrap-business-building .businsses-text h1{
+    text-align: left;
+   
+}
+.wrap-business-building .businsses-text p{
+    padding-bottom:40px;
+   
+}
+/* -- ----------section customer card--------- --*/
+
+.bg-color{
+    margin: 0 auto;
+    width: 1440px;
+    background-color: #0D1337;
+    color: white;
+}
+.wrap-customer-card .customer-text {
+    
+    
+}
+.wrap-customer-card .customer-text h1{
+   padding-top: 64px;
+}
+.box-card{
+    display: flex;
+    gap:30px;
+    justify-content: space-around;
+    padding-top: 48px;
+    padding-bottom:64px;
+}
+
+.box-card .box{
+    text-align: left;
+    padding-top:32px;
+    padding-left:40px ;
+    padding-right:36px;
+    padding-bottom:64px;
+    background-color: white;
+}
+.box-card .box h1{
+    text-align: left;
+    color:#0B254B;
+  
+}
+.box-card .box h5{
+   padding-top:32px;
+    color:#0B254B;
+}
+.box-card .box p{
+    padding-top:32px;
+    padding-bottom:48px;
+    
+}
+.box-card .box a{
+    color:#0D1337 ;
+    padding-top:64px ;
+    padding-bottom: 48px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+
+}
+.box-card .box a i{
+    padding-left:10px;
+    padding-top:5px;
+}
+
+
+/* <!-- ----------section latest card--------- --> */
+
+.wrap-latest-news{
+    width: 1440px;
+     margin: 0 auto;
+     margin-top:111px;
+}
+.wrap-latest-news h1{
+    text-align: left;
+    padding-left:28px;
+    
+}
+.wrap-latest-news .box-cord{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding-top:39.69px;
+}
+.wrap-latest-news .box-cord .box{
+    width:444px;
+    text-align: left;
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+
+}
+.wrap-latest-news .box-cord .boximg{
+    max-width:100px;
+}
+.wrap-latest-news .box-cord .box .text-new {
+    display: flex;
+    flex-wrap: wrap;
+    padding:22px 0px 32px 32px ;
+  
+}
+.wrap-latest-news .box-cord .box .text-new .text-p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #8E919A;
+    padding: 0%;
+    padding-right:22px ;
+}
+.wrap-latest-news .box-cord .box h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 40px;
+    text-transform: capitalize;
+    col0r: #0B254B;
+    padding-left:32px;
+
+}
+.wrap-latest-news .box-cord .box p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    color: #8E919A;
+    padding:16px 32px 40px 32px;
+}
+/*  <!------------section update bar--------- --> */
+
+
+.warp-update{
+     margin-top:196.33px ;
+     width:1202px;
+     background:rgb(255, 231, 212);
+     border-radius: 30px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     margin-bottom:140px ;
+}
+.warp-update .update-text h1{
+    padding-top:56px ;
+    padding-bottom:56px ;
+    color:black ;
+    opacity: none;
+   
+}
+.warp-update .address{
+    background-color:#ffff;
+    width:589px;
+    border-radius: 10px;
+    margin-bottom:56px;
+    padding:27px 0px 29px 29px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-items: center;
+
+}
+.warp-update .address .gmail{
+    padding:12px;
+    text-align: left;
+    border: none;
+}
+.warp-update .address .button{
+    padding:18px 47px 17px 47px;
+}
+.warp-update .address .Subscribe{
+    border-radius: 10px; 
+    margin:-21px;
+    margin-right: -69px;
+   
+   
+}
+
+
+/*-----this is the main end------ */
+/* =================================== */
+
+
+
+
+
+ /*  ==================================== */
+   /* <!-- this is the footer start-->  */
+
+
+/* <!------------section footer-link  --------- --> */
+
+.wrap-footer-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:40px 0px 40px 0px;
+
+}
+.wrap-footer-link .imoodev{
+    display: flex;
+    flex-direction: column;
+}
+.wrap-footer-link .imoodev h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #0D1337;
+    text-align: left;
+    padding-bottom: 34px;
+
+}
+.wrap-footer-link .imoodev a {
+    color: #666666;
+    text-decoration: none;
+    padding:13px;
+   
+}
+.wrap-footer-link .imoodev a i{
+  padding-right:21.61px;
+  
+}
+.wrap-footer-link .all-link h5{
+    padding-bottom:32px;
+
+}
+.wrap-footer-link .all-link a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    padding-bottom:24px;
+    font-family: 'Poppins';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 21px;
+    color: #0B254B;
+
+    
+}
+.wrap-footer-link .all-link .gamil-box .gmail{
+    padding:19px 206px 19px 16px ;
+    color:  #666666;
+    background-color:#FAFAFA;
+    border: none;
+    border-radius: 10px;
+
+}
+.wrap-footer-link .all-link .gamil-box .button{
+    border-radius: 10px;
+   
+}
+
+/*  <!------------section copy-right--------- --> */
+ 
+.copy-right{
+    width: 1440px;
+    margin: 0 auto;
+    background-color: #0D1337 ;
+    text-align: center;
+    padding:23px 0px 23px 0px ;
+    margin-bottom:100px;
+    margin-top:40px;
+}
+
+.copy-right .copyrigt-text p{
+    color: #FFFFFF;
+}
+
+   /* <!-- this is the footer end-->  */
+ /*  ==================================== */
+
+
+
+               
+                
+                
